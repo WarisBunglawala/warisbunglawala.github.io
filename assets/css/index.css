@@ -1,0 +1,48 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-transform: inherit;
+
+}
+
+body {
+    font-family: "Montserrat";
+    background: black;
+}
+.yellow{
+    color: yellow;
+}
+hr {
+    width: 50%;
+    border-color: white;
+    margin: auto;
+}
+
+.index-button>a>i{
+    color: white;
+}
+.index-button>a>i:hover{
+    color: yellow;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 750px) {
+    .landmark {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .landmark {
+        font-size: 3.5rem;
+    }
+}

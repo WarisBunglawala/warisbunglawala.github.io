@@ -1,0 +1,158 @@
+body {
+    font-family: "Montserrat", 'Calibri', 'Trebuchet MS', sans-serif;
+    height: 100%;
+}
+
+.header {
+    background: black;
+    font-size: larger;
+}
+
+.nav-link,
+.brand {
+    color: white;
+}
+
+.nav-link:hover,
+.brand:hover {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.after-contact-nav {
+    padding-top: 100px;
+    width: auto;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 28px;
+}
+
+.fa-bars:hover {
+    color: yellow;
+}
+
+.rounded-circle {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.abt-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.home-button>a>i {
+    color: maroon;
+    transition: .5s;
+}
+
+.home-button>a>i:hover {
+    color: maroon;
+    transform: scale(1.3, 1.3);
+    -webkit-transform: scale(1.3, 1.3);
+    -moz-transform: scale(1.3, 1.3);
+    transition: .5s;
+}
+
+@media screen and (max-width: 600px) {
+    .after-nav {
+        padding-top: 70px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .after-nav {
+        padding-top: 100px;
+        width: auto;
+    }
+}
+
+.skills-container {
+    display: grid;
+    grid-tempLate-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+
+.skills-box {
+    padding: 1rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.skills-box:hover .skills-img {
+    transform: scale(1.2, 1.2);
+    padding-bottom: 5px;
+}
+
+.skills-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.skills-icons {
+    width: 50px;
+    z-index: 2;
+}
+
+.skills-img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    background: white;
+}
+
+.skills-title h3 {
+    color: white;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width:990px) {
+    .skills-container {
+        grid-tempLate-columns: repeat(3, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .skills-container {
+        grid-tempLate-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+.footer-links>a{
+    color: white;
+}
+.footer-links>a:hover{
+    color: blue;
+}
